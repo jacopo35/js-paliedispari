@@ -20,3 +20,10 @@ let string = prompt('Inserisci una parola');
 console.log('parola scelta: ' + string);
 console.log('parola al contrario: ' + reverseStr(string));
 
+//SE uguali allora:
+
+if (string == reverseStr(string)) {
+   console.log('La parola ' + string + ' è palindroma.');
+} else { //altrimenti:
+   console.log('La parola ' + string + ' non è palindroma.');
+}
