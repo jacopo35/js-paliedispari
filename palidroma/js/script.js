@@ -15,3 +15,8 @@ function reverseStr(string) {
 let string = prompt('Inserisci una parola');
 
 
+//Mostrare la parola al contrario:
+
+console.log('parola scelta: ' + string);
+console.log('parola al contrario: ' + reverseStr(string));
+
