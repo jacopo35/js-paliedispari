@@ -7,3 +7,9 @@
    (corrispondenza tra scelta pari e dispari e somma pari o dispari)
    In un secondo momento creiamo delle funzioni per i numeri random e per il check pari dispari.
 */
+
+//Prima funzione per creare numeri random:
+
+function randNum(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
